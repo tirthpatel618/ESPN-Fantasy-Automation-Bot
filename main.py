@@ -15,8 +15,8 @@ from setlineup import setLineup
 
 driver = webdriver.Safari()
 driver.get('https://fantasy.espn.com/basketball/team?leagueId=481644828&teamId=6&seasonId=2024')
-email = "tirth618@gmail.com"
-password = "Mahantk86"
+email = input("what is your espn login")
+password = input("what is your espn login password")
 driver.maximize_window()
 
 def login(driver, email, upass):
